@@ -1,1 +1,11 @@
-const valores = [2, 34, 56, 3, 9, 6, 55, 106];
+const nomes = ['Pedro', 'Aurora', 'Anne', 'Rafa', 'Helena', 'Arthur','Murilo', 'Alice'];
+
+//Filtre uma lista de nomes e retorne somente os que começam com a letra 'A'
+
+//função com parâmetros, o indexof retorna uma substring (no caso A)
+//que por padrão é zero, por isso o -1
+const filterNames = (query) => {
+    return nomes.filter(el => el.indexOf(query) > -1)
+}
+
+console.log(filterNames('A'))

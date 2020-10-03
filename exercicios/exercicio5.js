@@ -1,6 +1,9 @@
+// Some uma lista de notas de escola
 const notas = [5, 4, 3, 0, 10]
 
-// Some uma lista de notas de escola
+
+//o primeiro acumulador, item atual é da função - o segundo (par de acumulador e item atual)
+//é do return
 
 const somarNotas = notas.reduce((acumulador, itemAtual) => acumulador + itemAtual)
 
