@@ -1,4 +1,4 @@
-class Animal {
+/* class Animal {
   constructor(pelagem, altura) {
     this.pelagem = pelagem
     this.altura = altura
@@ -22,4 +22,10 @@ class Cachorro extends Animal {
 
 const cachorro = new Cachorro('Carlos')
 cachorro.latir()
-console.log(cachorro.pelagem)
+console.log(cachorro.pelagem) */
+
+let num = 0 
+
+while (num <= 10) {
+  console.log(num++)
+}
