@@ -1,3 +1,7 @@
+console.log("-------ex4-------");
+
+console.log("Filtre os itens já comprados de uma lista de mercado e retorne a lista atualizada");
+
 const listaDeMercado = [
   {
     nome: 'Maçã',
@@ -20,3 +24,11 @@ const listaDeMercado = [
     comprado: false
   }
 ]
+
+const filtrado = listaDeMercado.filter(function(obj) { return obj.comprado == true });
+
+console.log(filtrado);
+
+const atualizada = listaDeMercado.filter(function(obj) { return obj.comprado == false });
+
+console.log(atualizada);
