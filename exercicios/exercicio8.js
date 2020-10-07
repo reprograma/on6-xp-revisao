@@ -11,12 +11,12 @@ const nomes = ['Anna', 'Andressa', 'Luciana', 'Bruna', 'Amanda'];
 
   // Filtre uma lista de nomes e retorne somente os que começam com a letra 'A'
 
-/* const nomesInitialA = nomes.filter(nome => nome.indexOf('A') > -1)
+const nomesInitialA = nomes.filter(nome => nome.indexOf('A') > -1)
 
-console.log(nomesInitialA) */
+console.log(nomesInitialA)
 
 
-const teste = nomes.indexOf('A') > -1
+/* const teste = nomes.indexOf('A') > -1
 console.log(teste)
 
-console.log(nomes)
+console.log(nomes) */

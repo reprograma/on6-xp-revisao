@@ -6,12 +6,12 @@ const pessoa = {
   }
 }
 
-
-//Uma pessoa é representada pelo objeto `pessoa`. Essa pessoa tem a habilidade de comer. A string `>(O)<` representa uma bala. Faça com que essa pessoa consiga comer essa bala, mas pra isso, você vai precisar tirá-la da embalagem.
-
 const confeitoReplace = confeito[0].replace(">(", "").replace(")<", "")
 
 pessoa.comer(confeitoReplace)
+
+//o método replace altera o array original. Não consegui realizar o exercício sem alterar o array original.
+pessoa.comer(confeito)
 
 
 /* const confeitoAberto = confeito.filter(index =>{
