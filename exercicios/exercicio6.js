@@ -25,3 +25,14 @@ const listaDeMercado = [
     valor: 6.99
   }
 ]
+
+/* for(i = 0; i < listaDeMercado.length; i++){
+  const valor = listaDeMercado[i]["valor"]
+  console.log(valor)
+} */
+
+const soma = listaDeMercado.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue.valor;
+}, 0)
+
+console.log(`O valor toral da lista é R$ ${soma.toFixed(2)}`)
