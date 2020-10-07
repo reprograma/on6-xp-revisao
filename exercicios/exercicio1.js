@@ -1,25 +1,14 @@
-class Animal {
-  constructor(pelagem, altura) {
-    this.pelagem = pelagem
-    this.altura = altura
-  }
+console.log("-------ex1-------");
+console.log("1. Liste números de 0 a 10 no console");
 
-  correr(nome) {
-    console.log(`${nome} está correndo!`)
-  }
+const numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < numeros.length; i++) {
+  console.log(numeros[i]);
 }
 
-class Cachorro extends Animal {
-  constructor(nome) {
-    super('caramelo', '50cm')
-    this.nome = nome;
-  }
+//ou
 
-  latir() {
-    console.log(`O cahorro ${this.nome} está latindo`)
-  }
+for (numero of numeros) {
+  console.log(numero);
 }
-
-const cachorro = new Cachorro('Carlos')
-cachorro.latir()
-console.log(cachorro.pelagem)
